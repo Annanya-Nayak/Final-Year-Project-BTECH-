@@ -1,0 +1,53 @@
+· GITIGNORE
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# TLS certificate and key — regenerate locally, never commit
+docker/nginx/ssl/*.crt
+docker/nginx/ssl/*.key
+docker/nginx/ssl/*.pem
+
+# Hugging Face / model cache
+.cache/
+*.bin
+*.safetensors
+
+# Locust / benchmark scratch output
+benchmark/results1/
+*.log
+
+# Plot output (regenerate from generate_plots.py, keep only what's referenced in README)
+plots/output/*
+!plots/output/paper/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# pytest
+.pytest_cache/
+
