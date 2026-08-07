@@ -384,7 +384,9 @@ Comparison of average request latency with and without TLS.
 ## Authors
 
 This project was developed as a Final Year B.Tech project by Group 05, Section 2241004,  Department of Computer Science and Engineering, Siksha 'O' Anusandhan (Deemed to be) University.
+
 Batch: 2022-2026
+
 Repository maintained by: Annanya Nayak. 
 
 ## License
