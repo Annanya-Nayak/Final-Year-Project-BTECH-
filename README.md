@@ -381,6 +381,12 @@ Comparison of average request latency with and without TLS.
 - van Hasselt et al., 2016 — Double Q-learning
 - [liboqs](https://github.com/open-quantum-safe/liboqs), Open Quantum Safe project
 
+## Authors
+
+This project was developed as a Final Year B.Tech project by Group 05, Section 2241004,  Department of Computer Science and Engineering, Siksha 'O' Anusandhan (Deemed to be) University.
+Batch: 2022-2026
+Repository maintained by: Annanya Nayak. 
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
